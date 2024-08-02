@@ -42,7 +42,3 @@ while True:
     case _:
         print(f"\n\t{RED}Opção inválida!{RESET}")
         pass
-
-     
-
-
