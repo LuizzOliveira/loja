@@ -335,7 +335,7 @@ def validar_letras(mensagem):
         if juntar:
             return nome
         else:
-            print('Entreda inválida!')
+            print('Entrada inválida!')
            
         
 def validar_numeros(mensagem):
