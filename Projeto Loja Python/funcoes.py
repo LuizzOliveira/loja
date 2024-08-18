@@ -329,13 +329,14 @@ def get_password_masked(prompt='Password: '):
 def validar_letras(mensagem):
     while True:
         nome=input(mensagem)
-        juntar= nome.replace(" ", "")
-        juntar=nome.isalpha()
+        juntar= nome.replace(" ", "").isalpha()
         
-        if juntar==True:
+        
+        if juntar:
             return nome
         else:
-            print("Digite apenas letras!")
+            print('Entreda inválida!')
+           
         
 def validar_numeros(mensagem):
     while True:
